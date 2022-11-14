@@ -436,3 +436,18 @@ textarea {
     border: 1px solid rgba(0, 0, 0, 0.15);
   }
 }
+.lcl {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  &-1 {
+    -webkit-line-clamp: 1;
+  }
+  &-2 {
+    -webkit-line-clamp: 2;
+  }
+}
+.w-space {
+  white-space: nowrap;
+}

@@ -166,11 +166,57 @@ $utilities: (
   'object-fit': (
     property: object-fit,
     class: object-fit,
-    values: cover,
+    values: cover contain,
   ),
   'cursor': (
     property: cursor,
     class: cursor,
-    values: none auto pointer,
+    values: none auto pointer move,
+  ),
+  'zindex': (
+    property: z-index,
+    class: zindex,
+    values: (
+      n1: -1,
+      0: 0,
+      1: 1,
+      2: 2,
+      3: 3,
+      5: 5,
+    ),
+  ),
+  'min-height': (
+    property: min-height,
+    class: minh,
+    values: (
+      auto: auto,
+      100: 100%,
+      80: 80%,
+    ),
+  ),
+  'min-width': (
+    property: min-width,
+    class: minw,
+    values: (
+      auto: auto,
+      90px: 90px,
+    ),
+  ),
+  'max-width': (
+    property: max-width,
+    class: mw,
+    values: (
+      100: 100%,
+      80: 80%,
+    ),
+  ),
+  'max-height': (
+    property: max-height,
+    class: mh,
+    values: (
+      100: 100%,
+      80: 80%,
+      80vh: 80vh,
+    ),
   ),
 );
